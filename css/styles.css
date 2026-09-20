@@ -234,9 +234,22 @@ p { margin: 0; }
   padding: var(--card-padding);
   display: flex;
   flex-direction: column;
+  gap: 18px;
 }
 
-.skills-card .label { margin-bottom: 16px; }
+.skill-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skill-group-label {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted-2);
+  margin: 0;
+}
 
 .tag-list {
   display: flex;
