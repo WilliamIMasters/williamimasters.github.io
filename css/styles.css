@@ -333,6 +333,9 @@ p { margin: 0; }
 .proj-chess { grid-column: span 5; }
 .proj-terraria2 { grid-column: span 5; }
 .proj-octopush { grid-column: span 7; }
+.proj-voxy { grid-column: span 12; }
+
+.proj-voxy img { aspect-ratio: 21 / 9; }
 
 /* ---------- Footer ---------- */
 .site-footer {
@@ -384,9 +387,12 @@ p { margin: 0; }
   .proj-mixmasters,
   .proj-chess,
   .proj-terraria2,
-  .proj-octopush {
+  .proj-octopush,
+  .proj-voxy {
     grid-column: 1;
   }
+
+  .proj-voxy img { aspect-ratio: 16 / 10; }
 
   .profile-photo { max-width: none; }
 
