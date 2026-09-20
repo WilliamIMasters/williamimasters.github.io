@@ -1,38 +1,235 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>William Masters — Software Developer</title>
+    <meta
+      name="description"
+      content="William Masters — Software Developer specializing in C#, JavaScript and Flutter. Full-stack web, mobile, and game development."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- Header -->
+      <header class="site-header">
+        <div class="brand">
+          <span class="monogram">WM</span>
+          <span class="brand-name">William Masters</span>
+        </div>
+        <nav class="site-nav mono" aria-label="Primary">
+          <a href="mailto:williamianm@hotmail.com">Email</a>
+          <a
+            href="https://www.linkedin.com/in/william-masters-7b458b19b/"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com/WilliamIMasters"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+        </nav>
+      </header>
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+      <!-- Hero bento -->
+      <div class="bento hero-bento">
+        <section class="card profile-card">
+          <img
+            class="profile-photo"
+            src="assets/images/ProfilePic.jpg"
+            alt="William Masters"
+          />
+          <h1 class="profile-name">William Masters</h1>
+          <p class="label">Software Developer · Full-Stack</p>
+          <p class="muted location">Based in Reading, UK</p>
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+          <div class="contact-list">
+            <a class="contact-row" href="mailto:williamianm@hotmail.com">
+              <span class="contact-key mono">Email</span>
+              <span class="contact-value">williamianm@hotmail.com</span>
+            </a>
+            <a class="contact-row" href="tel:+447592812651">
+              <span class="contact-key mono">Phone</span>
+              <span class="contact-value">07592 812651</span>
+            </a>
+            <a
+              class="contact-row"
+              href="https://www.linkedin.com/in/william-masters-7b458b19b/"
+              target="_blank"
+              rel="noopener"
+            >
+              <span class="contact-key mono">LinkedIn</span>
+              <span class="contact-value">in/william-masters</span>
+            </a>
+            <a
+              class="contact-row"
+              href="https://github.com/WilliamIMasters"
+              target="_blank"
+              rel="noopener"
+            >
+              <span class="contact-key mono">GitHub</span>
+              <span class="contact-value">WilliamIMasters</span>
+            </a>
+          </div>
+        </section>
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
+        <section class="card about-card">
+          <p class="label">About</p>
+          <p class="about-text">
+            Software Developer specializing in C#, JavaScript and Flutter, with
+            experience building scalable applications and interactive game
+            prototypes (Unity/Godot). Passionate about clean architecture,
+            performance optimization, and creating intuitive user
+            experiences&mdash;whether for the web, mobile, or gaming.
+          </p>
+        </section>
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+        <section class="card experience-card">
+          <p class="label">Experience &amp; Education</p>
+          <div class="exp-row">
+            <div>
+              <div class="exp-org">Damarel Systems</div>
+              <div class="muted exp-role">Software Developer</div>
+            </div>
+            <div class="mono muted exp-dates">Sept 2022 &ndash; Present</div>
+          </div>
+          <div class="exp-row">
+            <div>
+              <div class="exp-org">The Redan</div>
+              <div class="muted exp-role">Bar Supervisor</div>
+            </div>
+            <div class="mono muted exp-dates">Sept 2021 &ndash; Sept 2022</div>
+          </div>
+          <div class="exp-row">
+            <div>
+              <div class="exp-org">University of Plymouth</div>
+              <div class="muted exp-role">
+                BSc &mdash; Computing and Game Development
+              </div>
+            </div>
+            <div class="mono muted exp-dates">2018 &ndash; 2022</div>
+          </div>
+        </section>
 
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="portfolio">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+        <section class="card skills-card">
+          <p class="label">Core Stack</p>
+          <div class="tag-list">
+            <span class="tag">C#</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">.Net</span>
+            <span class="tag">Oracle Database</span>
+            <span class="tag">Rust</span>
+            <span class="tag">Dart/Flutter</span>
+            <span class="tag">Unity</span>
+            <span class="tag">Godot</span>
+            <span class="tag">MonoGame</span>
+          </div>
+        </section>
+      </div>
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+      <!-- Projects section label -->
+      <div class="section-heading">
+        <p class="label">Selected Projects</p>
+        <div class="rule"></div>
+      </div>
 
-  <title>portfolio</title>
-  <link rel="manifest" href="manifest.json">
-</head>
-<body>
-  <script src="flutter_bootstrap.js" async></script>
-</body>
+      <!-- Projects bento -->
+      <div class="bento projects-bento">
+        <article class="card proj-card proj-mixmasters">
+          <img
+            src="assets/images/MixMastersDemo.png"
+            alt="MixMasters app demo"
+          />
+          <div class="proj-body">
+            <div class="proj-head">
+              <h2 class="proj-title">MixMasters</h2>
+              <p class="mono accent proj-tech">Flutter &middot; PocketBase</p>
+            </div>
+            <p class="muted proj-desc">
+              Mix Masters is a mobile app designed to help bartenders and
+              cocktail enthusiasts store, discover, and perfect drink recipes.
+              Built with Flutter for seamless cross-platform performance and
+              powered by PocketBase for an efficient all-in-one backend.
+            </p>
+          </div>
+        </article>
+
+        <article class="card proj-card proj-chess">
+          <img src="assets/images/ChessDemo.jpg" alt="Chess recreation demo" />
+          <div class="proj-body">
+            <div class="proj-head">
+              <h2 class="proj-title">Chess &mdash; Recreation</h2>
+            </div>
+            <p class="mono accent proj-tech">Flutter &middot; Dart</p>
+            <p class="muted proj-desc">
+              A simple chess game built with Flutter and Dart, featuring a
+              custom engine with all standard rules, AI opponent (negamax
+              algorithm), responsive drag-and-drop interface, and multi-platform
+              support.
+            </p>
+          </div>
+        </article>
+
+        <article class="card proj-card proj-terraria2">
+          <img src="assets/images/BerrariaDemo.png" alt="Terraria2 demo" />
+          <div class="proj-body">
+            <h2 class="proj-title">Terraria2</h2>
+            <p class="mono accent proj-tech">C# &middot; MonoGame</p>
+            <p class="muted proj-desc">
+              A no-engine recreation of Terraria's core gameplay, built with
+              MonoGame. Features procedural world generation, tile-based
+              physics, and custom entity systems.
+            </p>
+          </div>
+        </article>
+
+        <article class="card proj-card proj-octopush">
+          <img src="assets/images/OctoPushDemo.png" alt="OctoPush demo" />
+          <div class="proj-body">
+            <div class="proj-head">
+              <h2 class="proj-title">OctoPush</h2>
+              <p class="mono accent proj-tech">C# &middot; Unity</p>
+            </div>
+            <p class="muted proj-desc">
+              A top down 2d pixel art game based on the sport underwater hockey,
+              otherwise called &lsquo;OctoPush&rsquo;. Made for a final year
+              project at university.
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <p class="mono muted">
+          &copy; 2026 William Masters &middot; Glasgow, UK
+        </p>
+        <nav class="site-nav mono" aria-label="Footer">
+          <a href="mailto:williamianm@hotmail.com">Email</a>
+          <a
+            href="https://www.linkedin.com/in/william-masters-7b458b19b/"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com/WilliamIMasters"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+        </nav>
+      </footer>
+    </div>
+  </body>
 </html>
